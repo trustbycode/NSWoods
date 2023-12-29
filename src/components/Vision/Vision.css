@@ -1,0 +1,25 @@
+.visionLeft {
+    gap: 0.4rem;
+}
+
+.visionContainer .img-container {
+    border: var(--value-border);
+}
+
+.visionContainer>div {
+    flex: 1;
+}
+
+.text-vision {
+    font-size: flex;
+    text-align: center;
+    color: #1C2833;
+    /* font-weight: bold; */
+}
+
+@media (max-width: 1024px) {
+    .visionContainer {
+        flex-direction: column;
+    }
+}
+

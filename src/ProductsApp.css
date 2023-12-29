@@ -1,0 +1,18 @@
+.AppProduct {
+    overflow-x: clip;
+    position: relative;
+}
+
+.AppProduct>:nth-child(1) {
+    position: relative;
+    background: var(--black);
+}
+
+.grade {
+    background: var(--gradient-background);
+    width: 15rem;
+    height: 12rem;
+    position: absolute;
+    border-radius: 100px;
+    filter: blur(100px);
+}

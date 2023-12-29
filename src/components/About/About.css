@@ -1,0 +1,26 @@
+.aboutUs-right {
+    gap: 0.4rem;
+}
+
+.aboutUs-container .img-container {
+    border: var(--value-border);
+}
+
+.aboutUs-container>div {
+    flex: 1;
+}
+
+.text-about {
+    margin-top: 1rem;
+    font-size: flex;
+    text-align: center;
+    color: #1C2833;
+    /* font-weight: bold; */
+}
+
+@media (max-width: 1024px) {
+    .aboutUs-container {
+        flex-direction: column;
+    }
+}
+

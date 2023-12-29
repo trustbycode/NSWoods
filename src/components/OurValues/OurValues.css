@@ -1,0 +1,25 @@
+.ourValues-right {
+    gap: 0.3rem;
+}
+
+.ourValues-container .img-container {
+    border: var(--value-border);
+}
+
+.ourValues-container>div {
+    flex: 1;
+}
+
+.text-value {
+    font-size: 1rem;
+    text-align: center;
+    color: #1C2833;
+    /* font-weight: bold; */
+}
+
+@media (max-width: 1024px) {
+    .ourValues-container {
+        flex-direction: column;
+    }
+}
+

@@ -1,0 +1,8 @@
+.choose-container {
+    gap: 0.5rem;
+    justify-content: space-around;
+}
+
+.choose-container>img {
+    width: 15rem;
+}

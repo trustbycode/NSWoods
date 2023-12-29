@@ -1,0 +1,29 @@
+.footCon {
+    justify-content: space-between;
+}
+
+.menuFooter {
+    margin-top: 1rem;
+    gap: 1rem;
+    font-weight: bold;
+}
+
+.left-footer {
+    gap: 1rem;
+}
+
+.spann {
+    font-style: italic;
+    
+}
+
+@media (max-width: 768px) {
+    .footCon {
+        justify-content: center;
+    }
+
+    .footCon>div {
+        text-align: center;
+        align-items: center!important;
+    }
+}
